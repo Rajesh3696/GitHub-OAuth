@@ -61,7 +61,7 @@ const TrendingRepositories = () => {
     axios
       .get(`https://api.github.com/repos/${owner}/${repo}`, {
         headers: {
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer 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`,
         },
       })
       .then((data) => {
